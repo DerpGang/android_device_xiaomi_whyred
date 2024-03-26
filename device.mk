@@ -34,6 +34,10 @@ BOARD_HAVE_IR := true
 # Dynamic Partitions
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
 
+# Fingerprint
+PRODUCT_PACKAGES += \
+    com.fingerprints.extension@1.0.vendor
+
 # FM
 BOARD_HAVE_QCOM_FM := true
 
