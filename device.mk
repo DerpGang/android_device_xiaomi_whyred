@@ -45,7 +45,8 @@ DEVICE_PACKAGE_OVERLAYS += \
 # Ramdisk
 PRODUCT_PACKAGES += \
     fstab.qcom \
-    init.device.rc
+    fstab.qcom.ramdisk \
+    init.device.rc \
 
 # Shims
 PRODUCT_PACKAGES += \
