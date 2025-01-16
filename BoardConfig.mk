@@ -17,7 +17,7 @@ TARGET_SCREEN_WIDTH := 1080
 TARGET_SCREEN_DENSITY := 440
 
 # Kernel
-TARGET_KERNEL_CONFIG += vendor/xiaomi/whyred.config
+TARGET_KERNEL_CONFIG += vendor/whyred-perf_defconfig
 
 # Partitions
 -include vendor/voltage/config/BoardConfigReservedSize.mk
