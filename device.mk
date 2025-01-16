@@ -31,6 +31,9 @@ PRODUCT_PACKAGES += \
 # Consumerir
 BOARD_HAVE_IR := true
 
+# Dynamic Partitions
+PRODUCT_USE_DYNAMIC_PARTITIONS := true
+
 # FM
 BOARD_HAVE_QCOM_FM := true
 
