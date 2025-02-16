@@ -69,10 +69,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
 
-# USB
-PRODUCT_PACKAGES += \
-    android.hardware.usb-service.qti
-
 # Wifi
 PRODUCT_PACKAGES += \
     WhyredWifiOverlay
