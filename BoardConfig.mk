@@ -17,7 +17,7 @@ TARGET_SCREEN_WIDTH := 1080
 TARGET_SCREEN_DENSITY := 440
 
 # Kernel
-TARGET_KERNEL_CONFIG += vendor/whyred-perf_defconfig
+TARGET_KERNEL_CONFIG += vendor/alchemy_defconfig
 
 # Partitions
 -include vendor/voltage/config/BoardConfigReservedSize.mk
