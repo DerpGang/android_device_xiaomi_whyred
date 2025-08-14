@@ -24,9 +24,20 @@ PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
 VOLTAGE_BUILD_TYPE = OFFICIAL
 
+# boost framework
+VOLTAGE_ALL_CORES := 0-7
+VOLTAGE_CPU_SYS_BG := 0-3
+
+VOLTAGE_CPU_SMALL_CORES := 0,1,2,3
+VOLTAGE_CPU_BIG_CORES := 4,5,6,7
+VOLTAGE_CPU_BG := 0-2
+VOLTAGE_CPU_FG := 0-7
+VOLTAGE_CPU_LIMIT_BG := 0-1
+VOLTAGE_CPU_LIMIT_UI := 0-4
+VOLTAGE_CPU_DISPLAY := 4-7
+
 PRODUCT_BUILD_PROP_OVERRIDES += \
     BuildDesc="whyred-user 8.1.0 OPM1.171019.011 V9.5.11.0.OEIMIFA release-keys" \
     BuildFingerprint=xiaomi/whyred/whyred:8.1.0/OPM1.171019.011/V9.5.11.0.OEIMIFA:user/release-keys \
     DeviceName=whyred \
     DeviceProduct=whyred
-
